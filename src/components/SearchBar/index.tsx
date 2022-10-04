@@ -10,7 +10,6 @@ const SearchBar = () => {
 		if (debouncerRef.current) clearTimeout(debouncerRef.current)
 
 		debouncerRef.current = setTimeout(() => {
-			console.log("value", event.target.value)
 			searchPlaceByTerm(event.target.value)
 		}, 350)
 	}
