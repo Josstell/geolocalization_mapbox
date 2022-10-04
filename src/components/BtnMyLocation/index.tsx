@@ -1,11 +1,10 @@
 import React, { useContext } from "react"
-import { MapContext, PlacesContext } from "../../context"
+import { MapContext } from "../../context/map/MapContext"
+import { PlacesContext } from "../../context/places/PlacesContext"
 
 const BtnMyLocation = () => {
 	const { map, isMapReady } = useContext(MapContext)
 	const { userLocation } = useContext(PlacesContext)
-
-	console.log(isMapReady, userLocation)
 
 	const onClick = () => {
 		if (!isMapReady) throw new Error("Mapa no está listo.")
