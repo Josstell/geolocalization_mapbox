@@ -1,5 +1,5 @@
 import React, { ChangeEvent, useContext, useRef } from "react"
-import { PlacesContext } from "../../context"
+import { PlacesContext } from "../../context/places/PlacesContext"
 import { SearchResults } from "../SearchResults"
 
 const SearchBar = () => {

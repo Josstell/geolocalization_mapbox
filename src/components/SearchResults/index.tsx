@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react"
-import { MapContext, PlacesContext } from "../../context"
+import { MapContext } from "../../context/map/MapContext"
+import { PlacesContext } from "../../context/places/PlacesContext"
 import { Feature } from "../../interfaces/places"
 
 export const SearchResults = () => {

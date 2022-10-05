@@ -1,9 +1,10 @@
 import "../styles/globals.css"
 import type { AppProps } from "next/app"
-import { MapProvider, PlacesProvider } from "../context"
 import "mapbox-gl/dist/mapbox-gl.css"
 
 import mapboxgl from "mapbox-gl" // or "const mapboxgl = require('mapbox-gl');"
+import { PlacesProvider } from "../context/places/PlacesProvider"
+import { MapProvider } from "../context/map/MapProvider"
 
 const { NEXT_PUBLIC_MAPBOX_KEY } = process.env
 

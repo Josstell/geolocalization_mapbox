@@ -1,9 +1,10 @@
 import React, { useContext, useLayoutEffect, useRef } from "react"
-import { MapContext, PlacesContext } from "../../context"
 //@ts-ignore
 import { Map } from "!mapbox-gl"
 
 import Loading from "../Loading"
+import { PlacesContext } from "../../context/places/PlacesContext"
+import { MapContext } from "../../context/map/MapContext"
 
 const MapView = () => {
 	const mapDiv = useRef<HTMLDivElement>(null)
