@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
-import { MapContext } from "../../context/map/MapContext"
 import { PlacesContext } from "../../context/places/PlacesContext"
+import { MapContext } from "../../context/map/MapContext"
 
 const BtnMyLocation = () => {
 	const { map, isMapReady } = useContext(MapContext)

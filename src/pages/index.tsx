@@ -1,7 +1,7 @@
 import type { NextPage } from "next"
 import dynamic from "next/dynamic"
 
-import BtnMyLocation from "../components/BtnMyLocation"
+//import BtnMyLocation from "../components/BtnMyLocation"
 import LogoMariachon from "../components/LogoMariachon"
 import SearchBar from "../components/SearchBar"
 
@@ -13,7 +13,8 @@ const Home: NextPage = () => {
 	return (
 		<div className="flex ">
 			<MapViewDynamic />
-			<BtnMyLocation />
+
+			{/* <BtnMyLocation /> */}
 			<SearchBar />
 			<div>
 				<LogoMariachon />
