@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { Feature } from "../../interfaces/places";
+import { Feature } from "../../../interfaces/places";
 
 interface PlacesContextProps{
     isLoading: boolean,

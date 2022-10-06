@@ -1,7 +1,7 @@
 //@ts-ignore
 
 import { Map, Marker } from "!mapbox-gl";
-import { MapState } from "./MapProvider";
+import { MapState } from "../MapProvider";
 
 type MapAction = 
 | {type:'setMap', payload:Map}

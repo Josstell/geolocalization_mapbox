@@ -1,5 +1,5 @@
-import { Feature } from "../../interfaces/places";
-import { PlacesState } from "./PlacesProvider";
+import { Feature } from "../../../interfaces/places";
+import { PlacesState } from "../PlacesProvider";
 
 
 type PlacesAction = 
