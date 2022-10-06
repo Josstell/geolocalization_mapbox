@@ -10,4 +10,4 @@ interface PlacesContextProps{
 }
 
 
-export const PlacesContext = createContext({} as PlacesContextProps)
+export const PlacesContext = createContext({} as PlacesContextProps )
