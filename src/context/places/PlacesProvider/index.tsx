@@ -4,7 +4,7 @@ import { PlacesContext } from "../PlacesContext"
 
 import { placesReducer } from "../PlacesReducer"
 
-import { getUserLocation } from "../../../helpers"
+import { getUserLocation } from "../../../helpers/getUserLocation"
 import searchApi from "../../../apis/SearchAPI"
 import { Feature, PlacesResponse } from "../../../interfaces/places"
 
